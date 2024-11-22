@@ -1,8 +1,8 @@
-const url = 'https://raw.githubusercontent.com/kevinlzrs/API1/refs/heads/main/preferencias.json';
+const url = 'https://raw.githubusercontent.com/Cezinha2406/PJT-TRIMESTRAL/refs/heads/main/preferencias.json';
 
 const ctx = document.getElementById('grafico').getContext('2d');
 
-let rotulosX = ["Minecraft", "FIFA 17", "FIFA 23", "Ark", "GTA V", "NBA 24", "GTASA"];
+let rotulosX = ["Minecraft", "FIFA 24", "FIFA 17", "Ark", "GTA V", "NBA 24", "GTASA"];
 let valores = [0, 0, 0, 0, 0, 0, 0];
 
 // Criação do gráfico usando Chart.js
@@ -114,7 +114,7 @@ function exibirFraseInformativa(url) {
     const informacaoDiv = document.getElementById('informacao');
     informacaoDiv.innerHTML = `
     <p>Essas são as minhas preferências em Jogos. <br>
-    <p>Tais como <strong>Minecraft</strong>, <strong>GTAV</strong> e <strong>GodOfWar</strong> são os jogos que mais despertam meu interesse com um total de <span>${valores[0]}</span>, <span>${valores[4]}</span> e <span>${valores[6]}</span> pontos de interesse respectivamente, pois oferecem a oportunidade de mergulhar nos aspectos físicos e históricos de um fato..</p>
-    <p>Além disso, <strong>FIFA18</strong> com <span>${valores[2]}</span> pontos, também é um dos jogos de destaque. Por outro lado, matérias como <strong>TheLastOfUs</strong> com <span>${valores[3]}</span> pontos, <strong>GTAV</strong> com <span>${valores[1]}</span> pontos e especialmente <strong>Samba</strong> com <span>${valores[5]}</span> pontos despertam menos meu interesse.</p>
+    <p>Tais como <strong>Minecraft</strong>, <strong>FIFA24</strong> e <strong>GTAV</strong> são os jogos que mais despertam meu interesse com um total de <span>${valores[0]}</span>, <span>${valores[1]}</span> e <span>${valores[4]}</span> pontos de interesse respectivamente, pois oferecem a oportunidade de mergulhar nos aspectos físicos e históricos de um fato..</p>
+    <p>Além disso, <strong>FIFA17</strong> com <span>${valores[2]}</span> pontos, também é um dos jogos de destaque. Por outro lado, matérias como <strong>NBA24</strong> com <span>${valores[5]}</span> pontos, <strong>Ark</strong> com <span>${valores[3]}</span> pontos e especialmente <strong>GTASA</strong> com <span>${valores[6]}</span> pontos despertam menos meu interesse.</p>
     `;
 }
